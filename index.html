@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b12">
+  <title>Aufbau des Imperiums – Verbindung wird hergestellt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <main class="screen">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="brand">
+        <strong>AUFBAU DES IMPERIUMS</strong>
+        <small>STAR WARS ROLEPLAY</small>
+      </div>
+      <div class="connection"><i></i><span>VERBINDUNG LÄUFT</span></div>
+    </header>
+
+    <section class="hero" aria-labelledby="headline">
+      <p class="eyebrow">IMPERIALES NETZWERK // ZUGANGSTERMINAL</p>
+      <div class="hero-emblem" aria-hidden="true"><div class="hero-emblem-inner">ADIM</div></div>
+      <h1 id="headline">DEIN EINSATZ BEGINNT<br><span>IN KÜRZE</span></h1>
+      <p class="subline">Die Verbindung zum Server wird vorbereitet.</p>
+    </section>
+
+    <section class="dashboard" aria-label="Ladeinformationen">
+      <div class="dashboard-head">
+        <span class="dash-label">SYSTEMSTATUS</span>
+        <span id="percent">0 %</span>
+      </div>
+      <div id="progress" class="progress" role="progressbar" aria-label="Dateien geladen" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress-fill"></div></div>
+      <div class="statusline"><span id="status">Verbindung zum Server wird hergestellt …</span><span id="file-count"></span></div>
+      <div class="info-row">
+        <div class="info"><small>SERVER</small><strong id="server">Aufbau des Imperiums</strong></div>
+        <div class="info"><small>KARTE</small><strong id="map">Wird geladen</strong></div>
+        <div class="info"><small>SPIELMODUS</small><strong id="gamemode">Star Wars Roleplay</strong></div>
+      </div>
+    </section>
+
+    <footer><span>ADIM // IMPERIALES DATENNETZ</span><span>Bitte warte, bis das Spiel die Verbindung abgeschlossen hat.</span></footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
