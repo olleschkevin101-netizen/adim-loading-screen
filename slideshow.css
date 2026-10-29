@@ -1,0 +1,24 @@
+.gallery {
+  display: block;
+  background: #0b1119;
+}
+.gallery .tile {
+  width: 100%;
+  height: 100%;
+}
+.gallery .tile img {
+  object-fit: contain;
+  filter: none;
+}
+.gallery .tile:after {
+  display: none;
+}
+.gallery .tile figcaption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 36px 20px 17px;
+  background: linear-gradient(to top, rgba(4, 7, 11, .9), transparent);
+  font-size: 14px;
+}
+.dots i { width: 10px; }

@@ -1,6 +1,6 @@
 # ADIM Ladebildschirm
 
-Eigenständige, statische Ladeseite für Garry's Mod. Die 13 optimierten Serverfotos liegen in `assets/`. Jeweils sieben Fotos erscheinen in einer Collage; die Anordnung wechselt automatisch. Alle 13 Bilder werden innerhalb von zwei Wechseln gezeigt.
+Eigenständige, statische Ladeseite für Garry's Mod. Die 13 optimierten Serverfotos liegen in `assets/`. Es wird immer genau ein Foto angezeigt. Nach 4,5 Sekunden folgt das nächste; alle 13 erscheinen einmal, bevor die Reihenfolge erneut gemischt wird.
 
 GitHub Pages veröffentlicht den Branch `main` aus dem Root dieses Repositorys unter `https://olleschkevin101-netizen.github.io/adim-loading-screen/`. Der Hauptserver nutzt:
 
