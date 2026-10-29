@@ -1,16 +1,12 @@
 # ADIM Ladebildschirm
 
-Eigenständige, statische Ladeseite für Garry's Mod und GitHub Pages. Die Dateien und Bilder aus der gekauften ZIP werden nicht veröffentlicht; deren Lizenz untersagt die Veröffentlichung des Quellcodes.
+Eigenständige, statische Ladeseite für Garry's Mod. Die 13 optimierten Serverfotos liegen in `assets/`. Jeweils sieben Fotos erscheinen in einer Collage; die Anordnung wechselt automatisch. Alle 13 Bilder werden innerhalb von zwei Wechseln gezeigt.
 
-## Veröffentlichung
-
-Diese drei Dateien (`index.html`, `style.css`, `app.js`) in das gewählte GitHub-Repository legen und GitHub Pages für den Branch-Root aktivieren. `.nojekyll` ist ebenfalls enthalten.
-
-Danach die **tatsächlich erreichbare** Pages-URL in `sv_loadingurl` eintragen, beispielsweise:
+GitHub Pages veröffentlicht den Branch `main` aus dem Root dieses Repositorys unter `https://olleschkevin101-netizen.github.io/adim-loading-screen/`. Der Hauptserver nutzt:
 
 ```cfg
-sv_loadingurl "https://BENUTZER.github.io/adim-loading-screen/?map=%m"
+sv_loadingurl "https://olleschkevin101-netizen.github.io/adim-loading-screen/?map=%m"
 ```
 
-Die Seite nutzt die Garry's Mod-JavaScript-Ereignisse für Servername, Karte, Spielmodus, Downloadfortschritt und Status. Außerhalb des Spiels zeigt sie Platzhalter. Es werden keine Steam-IDs an weitere Dienste gesendet.
+Die Seite nutzt Garry's Mods JavaScript-Ereignisse für Servername, Karte, Spielmodus, Downloadfortschritt und Status. Außerhalb des Spiels zeigt sie Platzhalter. Es werden keine Steam-IDs an weitere Dienste gesendet. Das zuvor gekaufte PHP-Template ist nicht Teil dieser Seite.
 
